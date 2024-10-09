@@ -1,10 +1,27 @@
 body {
-    background-color: rgb(46, 46, 184);
+    background-color: #edf3f3;
+    margin: 0px;
+    background-image: url("backgroundimg.jpeg");
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
 }
 header {
-    background-color: rgb(32, 30, 156);
-    padding: 15px;
+    background-color: #BCD39C;
 }
 .logo {
-    width: 80px;
+    width: 60px;
+    padding: 15px;
+}
+.main-navigation {
+    background-color: #1B2845;
+}
+.main-navigation a {
+    color:azure;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+.main-navigation a:hover {
+    background-color: #335C81;
+    color: #151515; 
 }

@@ -1,7 +1,7 @@
 body {
     background-color: #edf3f3;
     margin: 0px;
-    background-image: url("backgroundimg.jpeg");
+    background-image: url("newbackground.jpeg");
     background-size: cover;
     font-family:Arial, Helvetica, sans-serif
 }
@@ -24,4 +24,42 @@ header {
 .main-navigation a:hover {
     background-color: #335C81;
     color: #151515; 
+}
+.banner {
+    min-height: 50vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("newbackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+.banner-button {
+    display: block;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.card {
+    /* max-width: 33.33%; */
+    background-color: #cccccc;
+    flex: 1;
+}
+.card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    max-width: 100%;
 }

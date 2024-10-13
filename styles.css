@@ -1,37 +1,37 @@
 body {
-    background-color: #edf3f3;
-    margin: 0px;
-    background-image: url("newbackground.jpeg");
+    background-color: #FFFFFC;
+    margin: 20px;
+    background-image: url("JPEG\ image-48BE-83E8-1D-0.jpeg");
     background-size: cover;
     font-family:Arial, Helvetica, sans-serif
 }
 header {
-    background-color: #BCD39C;
+    background-color: #E9D3C4;
 }
 .logo {
-    width: 60px;
-    padding: 15px;
+    width: 150px;
+    padding: 10px;
 }
 .main-navigation {
-    background-color: #1B2845;
+    background-color: #B2AFA6;
 }
 .main-navigation a {
     color:azure;
     text-decoration: none;
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
 }
 .main-navigation a:hover {
     background-color: #335C81;
     color: #151515; 
 }
 .banner {
-    min-height: 50vh;
-    background-color: lightgray;
+    min-height: 60vh;
+    background-color: F4E9DE;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("newbackground.jpeg");
+    background-image: url("");
     background-position: center;
     background-size: cover;
     flex-direction: column;
